@@ -34,7 +34,7 @@ services:
       repository: fabricekonan28/gateway-service
       tag: "4"
     port: 8000
-    replicas: 1
+    replicas: 3
     exposed: true
     needsDb: false
     resources:
