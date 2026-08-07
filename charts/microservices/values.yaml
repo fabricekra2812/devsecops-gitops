@@ -34,7 +34,7 @@ services:
       repository: fabricekonan28/gateway-service
       tag: "4"
     port: 8000
-    replicas: 3
+    replicas: 2
     exposed: true
     needsDb: false
     resources:
@@ -57,7 +57,7 @@ services:
       repository: fabricekonan28/users-service
       tag: "43"
     port: 8001
-    replicas: 2
+    replicas: 1
     exposed: false
     needsDb: true
     resources:
@@ -77,7 +77,7 @@ services:
       repository: fabricekonan28/products-service
       tag: "3"
     port: 8002
-    replicas: 2
+    replicas: 1
     exposed: false
     needsDb: true
     resources:
@@ -97,7 +97,7 @@ services:
       repository: fabricekonan28/orders-service
       tag: "3"
     port: 8003
-    replicas: 2
+    replicas: 1
     exposed: false
     needsDb: true
     resources:
